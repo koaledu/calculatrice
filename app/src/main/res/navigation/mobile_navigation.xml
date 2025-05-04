@@ -3,16 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_calculator">
 
     <fragment
-        android:id="@+id/navigation_home"
+        android:id="@+id/navigation_calculator"
         android:name="com.koaledu.calculatrice.ui.calculator.CalculatorFragment"
         android:label="@string/calculadora"
         tools:layout="@layout/fragment_calculator" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_stopwatch"
         android:name="com.koaledu.calculatrice.ui.stopwatch.StopwatchFragment"
         android:label="@string/cronometro"
         tools:layout="@layout/fragment_stopwatch" />
